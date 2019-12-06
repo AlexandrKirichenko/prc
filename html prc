@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Parisienne&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <!-- <label for="">Passwords</label>
+    <input type="password" id="one">
+    <button class="b1"> Push1</button>
+    
+    <label for="">Colors</label>
+    <input type="color" id="two">
+    <button class="b2"> Take yours</button> -->
+
+        <!-- <label for="">Range</label>
+        <input type="range" id="three" min="0" max="200">
+       
+
+        <div class="one">1  </div>
+        <div class="one">2  </div>
+        <div class="one">3  </div>
+
+        <div><input type="radio" name="r" value="1" checked>bla</div>
+        <div><input type="radio" name="r" value="2">he</div>
+        <div><input type="radio" name="r" value="3">ho</div> -->
+        <!-- <button class="b4"> b6 </button>
+        <div><input type="number"></div> -->
+<!--         
+        <button class="toggle">Lovely Iloshechka</button>
+        <h1 class="one" data="privet">Luxury Auto Salon</h1>
+        <p>Введите номер модели и выберете марку автомобиля</p>
+        <input type="text" class='model'>
+        <div>
+            <button class="auto" data="1500000">Mersedes</button>
+            <button class="auto" data="1100000">Audi</button>
+            <button class="auto" data="1400000">BMW</button>
+        </div>
+  
+    </div>  
+    <script src="app4.js"></script>
+</body>
+</html>
