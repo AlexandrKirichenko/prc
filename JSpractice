@@ -1,0 +1,299 @@
+// const input = document.querySelector('.inputI');
+// const button = document.querySelector('button');
+// let div = document.querySelector('.out-1');
+
+// button.onclick = () => {
+//     let val = input.value;
+//     if (val==4) { 
+//         div.innerHTML = true;
+//         console.log('true');
+//     } else {
+//         div.innerHTML = false;
+//         console.log('false');
+//     }
+// }
+// let a21=4;
+// let a22=6;
+// const button = document.querySelector('.b2');
+// let div = document.querySelector('.out-1');
+// button.onclick = function f2(){
+//     if(a21>a22){
+//         div.innerHTML = a21;
+//     }else{
+//         div.innerHTML = a22;
+//     }
+// }
+// document.querySelector('.b2').onclick = function(){} 
+// document.querySelector('.b1').onclick = () =>{
+//     console.log(document.querySelector('#one').value);
+// }
+// document.querySelector('.b3').oninput = () =>{
+//     console.log(document.querySelector('#three').value);
+// }
+// document.querySelector('.b2').onclick = () =>{
+//     console.log(document.querySelector('#two').value);
+//     document.querySelector('.b2').style.backgroundColor = document.querySelector('#two').value;
+//     
+// }
+
+// document.querySelector('.b2').onclick = myFunc;
+// function myFunk(){} 
+
+// let div = document.querySelectorAll('.one');
+// console.log(div);
+// div.stile.backgrond= 'red';
+
+// for (let i = 0; i < div.length; i++){ 
+//      console.log(div[i]);
+//      div[i].style.background = 'orange';
+//      div[i].onclick = two;
+//     }
+
+// function two() {
+//     console.log('work!')
+// }
+// let b = document.getElementsByClassName('one'); //можно ображаться к элементам по class name
+// let c = document.getElementsByTagName('div');
+// console.log(b);
+// console.log(c);
+// for (let i = 0; i < b.length; i++){
+//     b[i].style.border = '3px solid black'
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let r = document.querySelectorAll('input[type="radio"]');
+//     console.log(r);
+//     for (let i = 0; i < r.length; i++) {
+//         if (r[i].checked) {
+//             console.log(r[i].value);
+//         }
+//     }
+// }
+
+// let out = ' ';
+// for (let i = 0; i < 12; i++) {
+//     if (i==6) continue;
+//     out += i + ' ';
+//     // if (i==6) break;
+  
+// }
+// document.querySelector('#out').innerHTML = out;
+
+// document.querySelector('button').onclick = () => {
+//     let out = ' ';
+//     for (let i = 25; i > 6; i--){
+//         out += '******';
+//     }
+//     document.querySelector('#out').innerHTML = out;
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let out = ' ';
+//     for (let i = 0; i < 3; i++){
+//         out += '******' + '<br>';
+//     }
+//     document.querySelector('#out').innerHTML = out;
+// }
+
+// document.querySelector('button').onclick = () => {
+//     let inp = document.querySelector('input').value;
+//     let r = ' ';
+//     for (let i = inp; i >= 0; i--){
+//         r += + i + ' ';
+//     }
+//     document.querySelector('#out').innerHTML = r;
+// }
+// let out = document.querySelector('.out');
+
+
+// for (let i = 0; i < 3; i++){
+  
+//     for (let k = 0; k < 3; k++){
+//     out.innerHTML += '*';
+// } 
+//     out.innerHTML += '_';
+// }
+
+// for (let i = 1; i < 10; i++) {
+//     //out.innerHTML += '3*' + i + '=' + (i * 3) + '<br>';
+//     for (let k =1; k < 10; k++){
+//         out.innerHTML += `${i}*${k}=${k*i}<br>`;
+//     }
+//     out.innerHTML += '<hr>';
+// }
+
+
+// let out = document.querySelector('.out');
+
+// for (let i=0; i < 3; i++){
+//     for (let k=0; k < 3; k++){
+//         out.innerHTML += '*_' ;
+//     }
+//     
+// }
+
+// 0_10_1_9_2_8_3_7_4_6_5_5_6_4_7_3_8_2_9_1_10_0_ 
+
+
+// let out = document.querySelector('.out');
+
+// for (let i=0; i <= 10; i++){
+    
+//     for (let k=0; k <= 1; k++){
+//         if (k == 0) {out.innerHTML+=`${i}_`}else{out.innerHTML+=`${10-i}_`}
+//     }
+// }
+
+// 101010
+// 101010
+// 101010
+
+// let out = document.querySelector('.out');
+
+// for (let i=0; i < 3; i++) {
+//     for(let k=0; k < 6; k++){
+//         if (k%2 == 0) {out.innerHTML+=1}else{out.innerHTML+=0}
+//     }
+//     out.innerHTML +='<br>';
+// 
+// let p = document.querySelector('.push');
+// let out = document.querySelector('.out');
+// let a1=2;
+// p.onclick = function t1() {
+//     out.innerHTML = a1;
+//     return a1;
+// }
+
+// let out = document.querySelector('.out');
+// let a1 = 8;
+// function t1() {
+//     out.innerHTML = a1;
+//     return a1;
+// }
+// document.querySelector('.push').onclick = t1;
+
+// let a1 = 8;
+// function f2() {
+   
+//     return a1;
+// }
+
+// document.querySelector('.push').onclick = () => {
+//     document.querySelector('.out').textContent = f2();
+// }
+// function t3(a,b) {
+//     return a*b;
+// }
+// document.querySelector('.push').onclick =function() {
+//     document.querySelector('.out').textContent = t3(3,9);
+// }
+// function age(b,y) {
+//     return y-b;
+// }
+// document.querySelector('.age').onclick = function() {
+//     document.querySelector('.out').textContent = age(1990,2019)
+
+// Вывести 0+....+10
+// let s = 0;
+// let r = 0;
+// while (s <= 10) {
+//     r = r +s;
+//     s++;
+// }
+// console.log(r);
+// Вывести 
+// ****
+// ****
+// ****
+// let out = document.querySelector('.out');
+// let p = 0;
+// let outStr = '';
+// while (p < 4) {
+//     let p1 = 0;
+//     while (p1 < 4){
+//         outStr = outStr +'*';//outStr += '*';
+//         p1++;     
+//     }
+//     p++;
+//     outStr += '<br>'
+// }
+// out.innerHTML = outStr;
+
+// let out = document.querySelector('.out');
+// let p = 25;
+// let ourStr = '';
+// document.querySelector('.b4').onclick = () => {
+//     while (p > 6) {
+//         out.innerHTML += `${p} `;
+//         p--;
+//     }
+// }
+
+// let out = document.querySelector('.out');
+// let p = 77;
+// let Str = '';
+// document.querySelector('.b4').onclick = () => {
+//     while (p>34){
+//         out.innerHTML +=`${p}_`;
+//         p--;
+//     }
+// }
+
+// let out = document.querySelector('.out');
+// let p = 1;
+// let outStr = '';
+// function t5() {
+//     while (p < 18) {
+//         (p%2 == 0)?outStr +=`${p}_**`:outStr += `${p}_*`
+//         out.innerHTML = outStr;
+//         p++;
+//     }
+// }
+// document.querySelector('.b6').onclick = t5;
+
+
+const one = document.querySelector('.one');
+
+one.style.width = '250px';
+one.style.paddingBottom = '40px';
+
+// console.log(one.style);
+
+one.classList.add('two', 'three')
+one.classList.remove('three');
+
+const toggle = document.querySelector('.toggle');
+
+toggle.onclick = function() {
+    this.classList.toggle('three'); // this. 
+}
+
+
+ one.getAttribute('data');
+console.log(one.getAttribute('data'));
+к 
+console.log(document.querySelector('link').getAttribute('href'));// получаем ссылку на шрифты гугл
+console.log(document.querySelectorAll('link')[1].getAttribute('href'));//для получении ссылки на CCS файл ставим ALL и номер элемента массива
+
+one.setAttribute('data-num',6)
+let out = document.querySelector('.out');
+let auto = document.querySelectorAll('.auto');
+
+for (let i = 0; i < auto.length;i++) {
+    auto[i].onclick = function () {
+        let auto = document.querySelector('.model').value;
+        let amount = this.getAttribute('data')
+        console.log(auto * amount);
+        return out.innerHTML=auto * amount;
+    }
+}
+
+let a = document.createElement('div');
+a.innerHTML = 'Hello!';
+a.classList.add('classno');
+a.onclick = function () {
+    alert('hello');
+}
+console.log(a);
+
+document.querySelector('.test').appendChild(a); 
